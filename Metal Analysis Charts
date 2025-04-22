@@ -1,0 +1,82 @@
+import { useState } from 'react';
+import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+
+// Data for the composition pie chart
+const compositionData = [
+  { name: 'Lithium', value: 27.5, color: '#6b7280' },
+  { name: 'Cobalt', value: 16.5, color: '#fcd34d' },
+  { name: 'Tin', value: 6.6, color: '#d1d5db' },
+  { name: 'Iron', value: 49.5, color: '#a3e635' }
+];
+
+// Data for the prices bar chart
+const pricesData = [
+  { name: 'Lithium', price: 675, color: '#6b7280' },
+  { name: 'Tin', price: 800, color: '#d1d5db' },
+  { name: 'Cobalt', price: 690, color: '#fcd34d' },
+  { name: 'Iron', price: 200, color: '#a3e635' }
+];
+
+export default function MetalAnalysisCharts() {
+  return (
+    <div className="flex flex-col bg-white p-8 w-full h-screen">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-4 md:gap-16">
+        {/* Pie Chart */}
+        <div className="w-full md:w-1/2 flex flex-col items-center">
+          <h2 className="text-lg font-medium text-gray-700 mb-4">Composition of sample</h2>
+          <div className="w-full h-96">
+            <ResponsiveContainer width="100%" height="100%">
+              <PieChart>
+                <Pie
+                  data={compositionData}
+                  cx="50%"
+                  cy="50%"
+                  labelLine={true}
+                  label={({ name, percent }) => `${name} ${(percent * 100).toFixed(1)}%`}
+                  outerRadius={120}
+                  fill="#8884d8"
+                  dataKey="value"
+                >
+                  {compositionData.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={entry.color} />
+                  ))}
+                </Pie>
+                <Tooltip 
+                  formatter={(value) => [`${value}%`, 'Percentage']}
+                />
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* Bar Chart */}
+        <div className="w-full md:w-1/2 flex flex-col items-center">
+          <h2 className="text-lg font-medium text-gray-700 mb-4">Prices of metals</h2>
+          <div className="w-full h-96">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart
+                data={pricesData}
+                margin={{
+                  top: 5,
+                  right: 30,
+                  left: 20,
+                  bottom: 5,
+                }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis domain={[0, 850]} />
+                <Tooltip />
+                <Bar dataKey="price" name="Price">
+                  {pricesData.map((entry, index) => (
+                    <Cell key={`cell-${index}`} fill={entry.color} />
+                  ))}
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
