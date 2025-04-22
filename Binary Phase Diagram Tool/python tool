@@ -1,0 +1,221 @@
+import matplotlib.pyplot as plt
+import numpy as np
+from matplotlib.patches import Polygon
+import argparse
+import json
+
+class BinaryPhaseDiagramGenerator:
+    """
+    A tool to generate binary phase diagrams for materials science applications.
+    
+    This class creates publication-quality binary phase diagrams with proper labels,
+    references, and customization options for different material systems.
+    """
+    
+    def __init__(self, config_file=None, **kwargs):
+        """
+        Initialize the phase diagram generator with materials data.
+        
+        Args:
+            config_file (str, optional): Path to a JSON configuration file.
+            **kwargs: Direct configuration parameters (overrides config_file).
+        """
+        # Default configuration
+        self.config = {
+            "material_a": "A",
+            "material_b": "B",
+            "material_a_melting_point": 100,
+            "material_b_melting_point": 200,
+            "eutectic_temperature": 80,
+            "eutectic_composition": 40,
+            "title": "Binary Phase Diagram",
+            "x_label": "Atomic Percent",
+            "show_weight_percent": True,
+            "temp_unit": "°C",
+            "references": ["Reference 1", "Reference 2"],
+            "alpha_phase_temp": None,  # Optional allotropic transformation temperature
+            "alpha_phase_comp_limit": None,  # Optional alpha phase composition limit
+            "phase_regions": [],  # Optional custom phase region labels
+            "custom_points": []  # Optional custom points to highlight
+        }
+        
+        # Load configuration from file if provided
+        if config_file:
+            try:
+                with open(config_file, 'r') as f:
+                    file_config = json.load(f)
+                    self.config.update(file_config)
+            except Exception as e:
+                print(f"Error loading config file: {e}")
+        
+        # Override with any directly provided parameters
+        self.config.update(kwargs)
+        
+    def generate_diagram(self, output_file=None, show_plot=True, dpi=300):
+        """
+        Generate the binary phase diagram.
+        
+        Args:
+            output_file (str, optional): Path to save the diagram. If None, doesn't save.
+            show_plot (bool): Whether to display the plot.
+            dpi (int): DPI for the output image.
+            
+        Returns:
+            matplotlib figure and axes objects
+        """
+        # Create figure and axes
+        fig, ax = plt.subplots(figsize=(10, 8))
+        
+        # Extract key parameters
+        mat_a = self.config["material_a"]
+        mat_b = self.config["material_b"]
+        mp_a = self.config["material_a_melting_point"]
+        mp_b = self.config["material_b_melting_point"]
+        eutectic_temp = self.config["eutectic_temperature"]
+        eutectic_comp = self.config["eutectic_composition"]
+        temp_unit = self.config["temp_unit"]
+        
+        # Draw phase diagram lines
+        # Liquidus lines
+        x_liquidus_left = np.linspace(0, eutectic_comp, 50)
+        y_liquidus_left = np.interp(x_liquidus_left, [0, eutectic_comp], [mp_a, eutectic_temp])
+        ax.plot(x_liquidus_left, y_liquidus_left, 'k-', linewidth=2)
+        
+        x_liquidus_right = np.linspace(eutectic_comp, 100, 50)
+        y_liquidus_right = np.interp(x_liquidus_right, [eutectic_comp, 100], [eutectic_temp, mp_b])
+        ax.plot(x_liquidus_right, y_liquidus_right, 'k-', linewidth=2)
+        
+        # Solidus lines (eutectic horizontal)
+        ax.plot([0, eutectic_comp], [eutectic_temp, eutectic_temp], 'k-', linewidth=2)
+        ax.plot([eutectic_comp, 100], [eutectic_temp, eutectic_temp], 'k-', linewidth=2)
+        
+        # Draw allotropic transformation if specified
+        if self.config["alpha_phase_temp"] is not None:
+            alpha_temp = self.config["alpha_phase_temp"]
+            alpha_comp = self.config["alpha_phase_comp_limit"] or 100
+            ax.plot([alpha_comp, 100], [alpha_temp, alpha_temp], 'k--', linewidth=1.5)
+            ax.text(95, alpha_temp - 5, f"{alpha_temp}{temp_unit}", fontsize=10)
+            ax.text(95, alpha_temp + 5, f"α{mat_b}", fontsize=10)
+        
+        # Highlight key points
+        ax.plot(0, mp_a, 'ko', markersize=6)
+        ax.plot(100, mp_b, 'ko', markersize=6)
+        ax.plot(eutectic_comp, eutectic_temp, 'ko', markersize=6)
+        
+        # Add custom points if specified
+        for point in self.config["custom_points"]:
+            ax.plot(point["composition"], point["temperature"], 'ko', markersize=6)
+            if "label" in point:
+                ax.text(point["composition"] + 2, point["temperature"] + 2, 
+                        point["label"], fontsize=10)
+        
+        # Add phase labels
+        # Default phase labels
+        ax.text(50, (mp_a + mp_b)/2, "L", fontsize=24, ha='center', va='center')
+        
+        # Add any custom phase region labels
+        for region in self.config["phase_regions"]:
+            ax.text(region["x"], region["y"], region["label"], fontsize=region.get("fontsize", 14), 
+                   ha=region.get("ha", 'center'), va=region.get("va", 'center'))
+        
+        # Set axis labels and title
+        ax.set_xlabel(f"{self.config['x_label']} {mat_b} (%)", fontsize=14)
+        ax.set_ylabel(f"Temperature ({temp_unit})", fontsize=14)
+        ax.set_title(f"{self.config['title']}: {mat_a}-{mat_b} System", fontsize=16)
+        
+        # Set axis limits
+        temp_min = max(0, eutectic_temp - 0.2 * mp_a)  # Ensure we don't go below 0 temperature
+        ax.set_xlim(0, 100)
+        ax.set_ylim(temp_min, max(mp_a, mp_b) * 1.1)
+        
+        # Add grid
+        ax.grid(True, linestyle='--', alpha=0.3)
+        
+        # Add references
+        if self.config["references"]:
+            refs = "\n".join(self.config["references"])
+            ax.text(0.5, -0.12, f"References:\n{refs}", fontsize=8, 
+                   transform=ax.transAxes, ha='center', va='center')
+        
+        # Add a secondary x-axis for weight percent if requested
+        if self.config["show_weight_percent"]:
+            ax2 = ax.twiny()
+            ax2.set_xlim(0, 100)
+            ax2.set_xlabel(f"Weight Percent {mat_b} (%)", fontsize=14)
+        
+        # Annotations for melting points and eutectic point
+        ax.text(2, mp_a, f"{mp_a}{temp_unit}", fontsize=10)
+        ax.text(98, mp_b, f"{mp_b}{temp_unit}", fontsize=10)
+        ax.text(eutectic_comp, eutectic_temp - 10, 
+                f"Eutectic: {eutectic_temp}{temp_unit}, {eutectic_comp}%", fontsize=10)
+        
+        plt.tight_layout()
+        
+        # Save the figure if an output file is specified
+        if output_file:
+            plt.savefig(output_file, dpi=dpi, bbox_inches='tight')
+            print(f"Diagram saved to {output_file}")
+        
+        # Show the plot if requested
+        if show_plot:
+            plt.show()
+        
+        return fig, ax
+    
+    @staticmethod
+    def create_tin_bismuth_example(output_file=None):
+        """
+        Create a Tin-Bismuth binary phase diagram as an example.
+        
+        Args:
+            output_file (str, optional): Path to save the example diagram.
+            
+        Returns:
+            BinaryPhaseDiagramGenerator instance
+        """
+        config = {
+            "material_a": "Bi",
+            "material_b": "Sn",
+            "material_a_melting_point": 271.442,
+            "material_b_melting_point": 231.96,
+            "eutectic_temperature": 138,
+            "eutectic_composition": 61,
+            "title": "Binary Phase Diagram",
+            "x_label": "Atomic Percent",
+            "show_weight_percent": True,
+            "temp_unit": "°C",
+            "references": [
+                "ASM Handbook Vol. 3: Alloy Phase Diagrams (2016)",
+                "Massalski, T.B., Binary Alloy Phase Diagrams, ASM International (1990)",
+                "DOI: 10.1007/978-3-642-02700-0"
+            ],
+            "alpha_phase_temp": 13,
+            "alpha_phase_comp_limit": 93,
+            "phase_regions": [
+                {"x": 20, "y": 100, "label": "(Bi)", "fontsize": 12},
+                {"x": 80, "y": 100, "label": "(βSn)", "fontsize": 12}
+            ]
+        }
+        
+        generator = BinaryPhaseDiagramGenerator(**config)
+        generator.generate_diagram(output_file=output_file)
+        return generator
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Generate a binary phase diagram')
+    parser.add_argument('--config', type=str, help='Path to configuration JSON file')
+    parser.add_argument('--output', type=str, help='Output file path')
+    parser.add_argument('--example', action='store_true', help='Generate Tin-Bismuth example')
+    parser.add_argument('--dpi', type=int, default=300, help='DPI for the output image')
+    
+    args = parser.parse_args()
+    
+    if args.example:
+        BinaryPhaseDiagramGenerator.create_tin_bismuth_example(args.output)
+    elif args.config:
+        generator = BinaryPhaseDiagramGenerator(config_file=args.config)
+        generator.generate_diagram(output_file=args.output, dpi=args.dpi)
+    else:
+        print("Please provide either --config or --example flag")
+        parser.print_help()
