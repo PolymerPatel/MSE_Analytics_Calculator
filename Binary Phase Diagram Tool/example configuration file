@@ -1,0 +1,26 @@
+{
+  "material_a": "Bi",
+  "material_b": "Sn",
+  "material_a_melting_point": 271.442,
+  "material_b_melting_point": 231.96,
+  "eutectic_temperature": 138,
+  "eutectic_composition": 61,
+  "title": "Binary Phase Diagram",
+  "x_label": "Atomic Percent",
+  "show_weight_percent": true,
+  "temp_unit": "°C",
+  "references": [
+    "ASM Handbook Vol. 3: Alloy Phase Diagrams (2016)",
+    "Massalski, T.B., Binary Alloy Phase Diagrams, ASM International (1990)",
+    "DOI: 10.1007/978-3-642-02700-0"
+  ],
+  "alpha_phase_temp": 13,
+  "alpha_phase_comp_limit": 93,
+  "phase_regions": [
+    {"x": 20, "y": 100, "label": "(Bi)", "fontsize": 12},
+    {"x": 80, "y": 100, "label": "(βSn)", "fontsize": 12}
+  ],
+  "custom_points": [
+    {"composition": 61, "temperature": 138, "label": "Eutectic"}
+  ]
+}
