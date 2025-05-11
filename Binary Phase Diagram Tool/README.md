@@ -1,8 +1,31 @@
-# Binary Phase Diagram Generator - Usage Guide EXAMPLE
+# Identifying a Material with a Binary Phase Diagram - Usage Guide Brainstorming
 
-This tool allows materials scientists and engineers to easily generate publication-quality binary phase diagrams with proper labeling, references, and customizable features. It's designed to be flexible enough for various material systems while maintaining accuracy and visual clarity.
+This tool will assist Materials Scientists and Engineers to easily match a literature referenced binary phase diagrams with material thermal properties to identify a material or alloy.
 
-## Installation
+
+
+##User Interface
+
+Protocol for application:
+
+At start of application, the program should create the (empty) materials lists
+The program should offer a menu for the user to select from
+The program should perform the user’s selected task
+The program should offer the menu in a loop until the user enters “q”
+
+Backend integration checklist items:
+
+Create a data table or database to pull the information from. 
+Building a database in lists or APIs from critical materials will be an uphill challenge.
+Develop and organize the chatbot's database with research-backed information. - Langchain and hugging face
+
+Positioning to showcase its value.
+Finding users to test it out as a decision-making or educational resource for a sustainable material management system.
+
+
+
+
+## Installation: This example use-case was generated with AI and serves as a brainstorming session with a volunteer
 
 ```bash
 # Clone the repository or download the script
@@ -76,27 +99,15 @@ generator.generate_diagram(output_file="al_si_diagram.png")
 BinaryPhaseDiagramGenerator.create_tin_bismuth_example(output_file="example.png")
 ```
 
-## Common Phase Diagram Types
+## Scalable Phase Diagram Systems
 
-### Eutectic Systems (e.g., Tin-Bismuth)
-Systems where a liquid transforms directly to two solid phases at the eutectic point.
+Eutectic Systems (e.g., Tin-Bismuth)
+A map that has a liquid transform directly to two solid phases at the eutectic point - that point where the curves intersect.
 
-### Peritectic Systems (e.g., Iron-Carbon up to 6.67% C)
-Systems where a liquid and solid phase react to form a new solid phase.
+Peritectic Systems (e.g., Iron-Carbon up to 6.67% C)
+A map where liquid and solid phases react to form a new solid phase. 
+Commonly found Iron-Carbon alloys due to the properties of adding Carbon to the system.
 
-### Solid Solution Systems (e.g., Copper-Nickel)
-Systems where components dissolve completely in both liquid and solid states.
-
-### Monotectic Systems (e.g., Copper-Lead)
-Systems with limited liquid solubility and a monotectic reaction.
-
-## Adjusting for Different Systems
-
-Different material systems may require adjustments to the phase lines. For complex systems, you may need to:
-
-1. Override the default phase line calculation in the code
-2. Provide exact coordinates for phase boundaries in your configuration
-3. Add custom transformation lines and regions specific to your system
 
 ## Adding Thermodynamic Data
 
@@ -113,7 +124,7 @@ When using this tool for academic publications, please cite:
 
 ```
 Binary Phase Diagram Generator
-https://github.com/your-username/binary-phase-diagram-generator
+https://github.com/PolymerPatel/binary-phase-diagram-tool
 ```
 
 And the relevant references for the material system data you've used.
