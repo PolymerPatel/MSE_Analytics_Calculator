@@ -1,4 +1,4 @@
-# Identifying a Material with a Binary Phase Diagram - Usage Guide Brainstorming
+# Identifying a Material with a Binary Phase Diagram - Brainstorming
 
 This tool will assist Materials Scientists and Engineers to easily match a literature referenced binary phase diagrams with material thermal properties to identify a material or alloy.
 
