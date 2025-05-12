@@ -13,7 +13,7 @@ Fall 2020 was one of the most uncertain and challenging stretches of life.
 
 Introduction to Materials Laboratory was in-person, and one of the lab experiments utilized a phase diagram to correlate a critical mineral alloy of Tin and Bismuth with literature referenced melting temperature.
 
-# Material Science Jargon
+# Material Science Terms
 
 -> Phase diagram (def.) : plot of solid and liquid phases of matter as a function of temp. and time.
 -> It's held at constant pressure
@@ -33,7 +33,8 @@ Now, in 2025, PolymerPatel revisited that lab report to create a proposal and th
 
 This is a start to build knowledge tools to make an impact on environmental sustainability. [https://hackaday.com/2019/02/20/the-woeful-world-of-worldwide-e-waste/](url)
 
-![[https://hackaday.com/2019/02/20/the-woeful-world-of-worldwide-e-waste/](https://hashchand.wordpress.com/wp-content/uploads/2021/03/fullwidth.a06d01d2.jpg)]
+![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
+
 
 ## Unlocking Critical Minerals from Electronic Waste Challenge Statement
 
