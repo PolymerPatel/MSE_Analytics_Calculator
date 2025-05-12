@@ -5,7 +5,7 @@ This is a Python application that generates Material phase diagrams to identify 
 
 ## 💡 Background
 
-In Spring 2020, my former professor assigned a task to create a binary phase diagram using programming in MATLAB. 
+In Spring 2020, my former professor assigned a task to create a binary phase diagram using MATLAB. 
 <br> Although that project stalled, I never lost that thought.
 
 Goals:<br>
