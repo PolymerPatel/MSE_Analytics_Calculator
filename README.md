@@ -3,7 +3,7 @@
 ## 📝 Overview
 This is a Python application that generates Material phase diagrams to identify valuable minerals in electronic waste streams. <br><br> By making complex materials science concepts accessible to recycling operators, this tool bridges the gap between academic research and practical e-waste recovery operations.
 
-## 💡Background
+## 💡 Background
 
 In Spring 2020, my former professor assigned a task to create a binary phase diagram using programming in MATLAB. Though that initiative halted, I never lost that thought.
 
