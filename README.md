@@ -26,12 +26,10 @@ Example Tin (Sample A) and Bismuth (Sample B) has following concentrations:
 50-50%
 25% A - 75% B
 
-	-> Alloying alters how phase changes show up and the diagram’s melting range
+-> Alloying alters how phase changes show up and the diagram’s melting range
 
 
 Now, in 2025, PolymerPatel revisited that lab report to create a proposal and this project was industry approved during a Critical Minerals - Circular Supply Chain Hackathon.
-
-This is a start to build knowledge tools to make an impact on environmental sustainability. [https://hackaday.com/2019/02/20/the-woeful-world-of-worldwide-e-waste/](url)
 
 ![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
 
