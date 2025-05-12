@@ -18,19 +18,17 @@ Fall 2020 was one of the most uncertain and challenging stretches in PolymerPate
 
 Phase diagram (def.): plot of solid and liquid phases of matter as a function of temp. and time. <br><br>
 
- -> It's held at constant pressure <br><br>
- -> There are various concentrations to determine invariant points <br><br>
+ -> It's held at constant pressure
+ -> There are various concentrations to determine invariant points
 
 And Tin and Bismuth can be linked to a phase diagram.<br><br>
-
 Alloy (def.): a composition of two elements, and the atomic structure is different at varying temperatures. <br><br>
 
-In that experiment, Tin (Sample A) and Bismuth (Sample B) has following concentrations:
-
-100% A<br><br>
-75% A - 25%B<br><br>
-50-50%<br><br>
-25% A - 75% B<br><br>
+In that experiment, Tin (Sample A) and Bismuth (Sample B) had following concentrations:
+ - 100% A<br><br>
+ - 75% A - 25%B<br><br>
+ - 50-50%<br><br>
+ - 25% A - 75% B<br><br>
 
  -> The bottom line was alloying altered how phase changes show up and the diagram’s melting range
 
