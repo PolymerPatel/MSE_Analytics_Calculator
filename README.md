@@ -12,7 +12,7 @@ Fall 2020 was one of the most uncertain and challenging stretches of life.
 
 Introduction to Materials Laboratory was in-person, and one of the lab experiments utilized a phase diagram to correlate a critical mineral alloy of Tin and Bismuth with literature referenced melting temperature.
 
-# Material Science Terms
+### Material Science Terms
 
 -> Phase diagram (def.) : plot of solid and liquid phases of matter as a function of temp. and time.
 -> It's held at constant pressure
