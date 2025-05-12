@@ -12,7 +12,7 @@ Goals:<br>
 - explain a single-component phase diagram as a map of equilibrium phases as a function of state variables (temperature, time, pressure)<br>
 - break it into three stages: cooling to freezing point, the plateau, and additional
 
-During Materials Laboratory, I conducted experiments correlating Tin-Bismuth alloys with their literature-referenced melting temperatures. It demonstrated that one could identify valuable materials in waste streams through thermal properties and cooling curves.
+During Materials Laboratory, PolymerPatel conducted an experiment to correlate Tin-Bismuth alloys with their literature-referenced melting temperatures. It demonstrated that one could identify valuable materials in waste streams through thermal properties and cooling curves.
 
 
 ## 🧪 Material Science Terms
