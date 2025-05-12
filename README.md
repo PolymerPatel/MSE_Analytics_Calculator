@@ -37,9 +37,9 @@ Alloy (def.): a composition of two elements, and the atomic structure is differe
 **By measuring how a sample melts, we can identify its composition and extract valuable minerals.**
 
 
-## NYC Hackathon
+## Hackathon
 
-In 2025, I reflected on my former lab report. <br><br> And, during NYC's Circular Supply Chain and Critical Minerals Hackathon, this concept started to come to fruition.<br><br>
+In 2025, I reflected on my former lab report. <br><br> And, during a Circular Supply Chain and Critical Minerals Hackathon, this concept started to come to fruition.<br><br>
 Challenge statement: Uncover the value of critical minerals in electronic waste products
 
 ![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
