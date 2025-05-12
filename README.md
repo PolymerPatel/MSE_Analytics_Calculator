@@ -5,13 +5,14 @@ This is a Python application that generates Material phase diagrams to identify 
 
 ## 💡 Background
 
-In Spring 2020, my former professor assigned a task to create a binary phase diagram using programming in MATLAB. <br> Although that project stalled, I never lost that thought.
+In Spring 2020, my former professor assigned a task to create a binary phase diagram using programming in MATLAB. 
+<br> Although that project stalled, I never lost that thought.
 
-It would:<br><br>
--> explain single-component phase diagram as a map of equilibrium phases as a function of state variables (temperature, time, pressure)<br><br>
--> break it into three stages: cooling to freezing point, the plateau, and additional 
+Goals:<br>
+-> explain a single-component phase diagram as a map of equilibrium phases as a function of state variables (temperature, time, pressure)<br>
+-> break it into three stages: cooling to freezing point, the plateau, and additional
 
-Fall 2020 was one of the most uncertain and challenging stretches in PolymerPatel's life. However, during an in-person Introduction to Materials Laboratory, I conducted experiments correlating Tin-Bismuth alloys with their literature-referenced melting temperatures. So, with the right tools, one could identify valuable materials in waste streams through thermal properties and cooling curves.
+Fall 2020 was one of the most uncertain and challenging stretches in PolymerPatel's life. <br> However, during an in-person Introduction to Materials Laboratory, I conducted experiments correlating Tin-Bismuth alloys with their literature-referenced melting temperatures. <br> So, with the right tools, one could identify valuable materials in waste streams through thermal properties and cooling curves.
 
 
 ## 🧪 Material Science Terms
