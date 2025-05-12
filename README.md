@@ -50,8 +50,8 @@ Create a Python application that acts as a materials phase diagram generator and
 
 - The outcome of a Python / data-drive application could be a visualization of a binary phase diagram of Tin and Bismuth. [https://www.britannica.com/science/tin](url)
 
- - This will assist users in identifying a critical electronic material to recycle through thermal techniques and investigation. <br><br>
- - The researcher can answer Y/N to the melting temperatures provided. <br><br>
+ - This will assist users in identifying a critical electronic material to recycle through thermal techniques and investigation. <br>
+ - The researcher can answer Y/N to the melting temperatures provided. <br>
  - Runs through a basic prompt that a researcher or manual labor worker would use to determine the weight percent of that material.
 
 ## 🚀 Tasks
