@@ -25,10 +25,10 @@ Phase diagram (def.): plot of solid and liquid phases of matter as a function of
 Alloy (def.): a composition of two elements, and the atomic structure is different at varying temperatures. <br><br>
 
 In that experiment, Tin (Sample A) and Bismuth (Sample B) had following concentrations:
- - 100% A<br><br>
- - 75% A - 25%B<br><br>
- - 50-50%<br><br>
- - 25% A - 75% B<br><br>
+ - 100% A<br>
+ - 75% A - 25%B<br>
+ - 50-50%<br>
+ - 25% A - 75% B<br>
 
  -> Alloying altered how phase changes show up and the diagram’s melting range
 
