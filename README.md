@@ -35,7 +35,7 @@ Different electronic components melt at specific temperatures based on their com
 By measuring how a sample melts, we can identify its composition and extract valuable minerals accordingly.
 
 
-### Unlocking Critical Minerals from Electronic Waste Challenge Statement
+## Unlocking Critical Minerals from Electronic Waste Challenge Statement
 
 Uncover the value of critical minerals in electronic waste products
 
