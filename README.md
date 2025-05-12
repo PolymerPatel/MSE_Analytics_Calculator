@@ -21,16 +21,16 @@ Phase diagram (def.): plot of solid and liquid phases of matter as a function of
 
  -> It's held at constant pressure <br>
  -> There are various concentrations to determine invariant points
-  -> Tin and Bismuth can be linked to a phase diagram.<br><br>
+  -> Tin and Bismuth can be linked to a phase diagram.<br>
+  
 Alloy (def.): a composition of two elements, and the atomic structure is different at varying temperatures. <br>
 
-In that experiment, Tin (Sample A) and Bismuth (Sample B) had following concentrations:
+ -> Alloying altered how phase changes show up and the diagram’s melting range
+ -> In that experiment, Tin (Sample A) and Bismuth (Sample B) had following concentrations:
  - 100% A<br>
  - 75% A - 25%B<br>
  - 50-50%<br>
  - 25% A - 75% B<br>
-
- -> Alloying altered how phase changes show up and the diagram’s melting range
 
 -- Different electronic components melt at specific temperatures based on their composition. <br>-- And by identifying these "thermal signatures," we can determine what valuable materials are present and in what quantities.
 
