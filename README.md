@@ -44,7 +44,6 @@ Challenge statement: Uncover the value of critical minerals in electronic waste 
 
 ![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
 
-
 ## 🎯 Mission
 
 Create a Python application that acts as a materials phase diagram generator and identifies critical materials based on datasets provided.
