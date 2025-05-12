@@ -127,7 +127,7 @@ Binary Phase Diagram Generator
 https://github.com/PolymerPatel/binary-phase-diagram-tool
 ```
 
-And the relevant references for the material system data you've used.
+And the relevant references for the material system data used.
 
 ## References
 
