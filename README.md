@@ -9,8 +9,8 @@ In Spring 2020, my former professor assigned a task to create a binary phase dia
 <br> Although that project stalled, I never lost that thought.
 
 Goals:<br>
-  -> explain a single-component phase diagram as a map of equilibrium phases as a function of state variables (temperature, time, pressure)<br>
-  -> break it into three stages: cooling to freezing point, the plateau, and additional
+- explain a single-component phase diagram as a map of equilibrium phases as a function of state variables (temperature, time, pressure)<br>
+- break it into three stages: cooling to freezing point, the plateau, and additional
 
 During Materials Laboratory, I conducted experiments correlating Tin-Bismuth alloys with their literature-referenced melting temperatures. It demonstrated that one could identify valuable materials in waste streams through thermal properties and cooling curves.
 
