@@ -58,26 +58,26 @@ Then it will run through a basic prompt that a researcher or manual labor worker
 
 ## 🚀 Ideal Outcomes
 
-- Build a tool that can sustainably source materials in a supply chain <br><br>
-- Deliver supply chain insights through a tool <br><br>
-- User interface can be text-based that gives options to enter. It will end up with a tailored recommendation <br><br>
-- Incorporate pull requests for volunteers and product user feedback mechanisms to improve tool performance <br><br>
+- Build a tool that can sustainably source materials in a supply chain <br>
+- Deliver supply chain insights through a tool <br>
+- User interface can be text-based that gives options to enter. It will end up with a tailored recommendation <br>
+- Incorporate pull requests for volunteers and product user feedback mechanisms to improve tool performance <br>
 
 
 ### ReadMe Action items:
 
- Python tools <br><br>
- Explanation for those without an Engineering background <br><br>
- How to contribute to this for orderly contributions with pull requests <br><br>
- Specific versions of Python libraries <br><br>
+ - Python tools <br>
+ - Explanation for those without an Engineering background <br>
+ - How to contribute to this for orderly contributions with pull requests <br>
+ - Specific versions of Python libraries <br>
 
 ### Other action items:
 
- Understand the code that is generated with AI <br><br>
- Make a pull request <br><br>
- Linked to relevant issues <br><br>
- Make a system design and workflow to unblock contributions <br><br>
- Applications to e-waste in freshwater resources <br><br>
+ - Understand the code that is generated with AI <br>
+ - Make a pull request <br>
+ - Linked to relevant issues <br>
+ - Make a system design and workflow to unblock contributions <br>
+ - Applications to e-waste in freshwater resources <br>
   -> Lithium e-bike batteries and transit waste applications [https://www.sciencedirect.com/science/article/abs/pii/S0956053X1630530X](url)<br><br>
 
 
