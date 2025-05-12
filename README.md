@@ -1,9 +1,9 @@
-# Critical Minerals Recovery: Phase Diagram Analysis Tool
+# 🌊 Critical Minerals Recovery: Phase Diagram Analysis Tool
 
-## Overview
+## 📝 Overview
 This is a Python application that generates Material phase diagrams to identify valuable minerals in electronic waste streams. <br><br> By making complex materials science concepts accessible to recycling operators, this tool bridges the gap between academic research and practical e-waste recovery operations.
 
-## The Story Behind the Project
+## 💡Background
 
 In Spring 2020, my former professor assigned a task to create a binary phase diagram using programming in MATLAB. Though that initiative halted, I never lost that thought.
 
@@ -14,7 +14,7 @@ It would:<br><br>
 Fall 2020 was one of the most uncertain and challenging stretches in PolymerPatel's life. However, during an in-person Introduction to Materials Laboratory, I conducted experiments correlating Tin-Bismuth alloys with their literature-referenced melting temperatures. So, with the right tools, one could identify valuable materials in waste streams through thermal properties and cooling curves.
 
 
-## Material Science Terms
+## 🧪 Material Science Terms
 
 Phase diagram (def.): plot of solid and liquid phases of matter as a function of temp. and time. <br><br>
 
@@ -49,7 +49,7 @@ Challenge statement: Uncover the value of critical minerals in electronic waste 
 ![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
 
 
-## Mission
+## 🎯 Mission
 
 Create a Python application that acts as a materials phase diagram generator and identifies critical materials based on datasets provided.
 
@@ -59,7 +59,7 @@ This will assist users in identifying a critical electronic material to recycle 
 The researcher can answer Y/N to the melting temperatures provided. <br><br>
 Then it will run through a basic prompt that a researcher or manual labor worker would use to determine the weight percent of that material.
 
-### Ideal Outcomes
+## 🚀 Ideal Outcomes
 
 - Build a tool that can sustainably source materials in a supply chain <br><br>
 - Deliver supply chain insights through a tool <br><br>
