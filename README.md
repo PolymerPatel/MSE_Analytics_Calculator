@@ -1,7 +1,7 @@
 # Critical Minerals Recovery: Phase Diagram Analysis Tool
 
 ## Overview
-The Critical Minerals Recovery Tool is an open-source Python application that generates material phase diagrams to identify valuable minerals in electronic waste streams. <br><br> By making complex materials science concepts accessible to recycling operators, this tool bridges the gap between academic research and practical e-waste recovery operations.
+This is a Python application that generates Material phase diagrams to identify valuable minerals in electronic waste streams. <br><br> By making complex materials science concepts accessible to recycling operators, this tool bridges the gap between academic research and practical e-waste recovery operations.
 
 ## The Story Behind the Project
 
@@ -16,38 +16,42 @@ Fall 2020 was one of the most uncertain and challenging stretches in PolymerPate
 
 ## Material Science Terms
 
--> Phase diagram (def.) : plot of solid and liquid phases of matter as a function of temp. and time. <br><br>
--> It's held at constant pressure <br><br>
--> There are various concentrations to determine invariant points <br><br>
+Phase diagram (def.): plot of solid and liquid phases of matter as a function of temp. and time. <br><br>
 
-Example Tin (Sample A) and Bismuth (Sample B) has following concentrations:
+ -> It's held at constant pressure <br><br>
+ -> There are various concentrations to determine invariant points <br><br>
+
+And Tin and Bismuth can be linked to a phase diagram.<br><br>
+
+Alloy (def.): a composition of two elements, and the atomic structure is different at varying temperatures. <br><br>
+
+In that experiment, Tin (Sample A) and Bismuth (Sample B) has following concentrations:
 
 100% A<br><br>
 75% A - 25%B<br><br>
 50-50%<br><br>
 25% A - 75% B<br><br>
 
-Why Phase Diagrams Matter for E-waste:<br><br>
+ -> The bottom line was alloying altered how phase changes show up and the diagram’s melting range
+
 Different electronic components melt at specific temperatures based on their composition. <br><br>By identifying these "thermal signatures," we can determine what valuable materials are present and in what quantities.
 
--> Alloying alters how phase changes show up and the diagram’s melting range
 
 By measuring how a sample melts, we can identify its composition and extract valuable minerals accordingly.
 
 
-## Unlocking Critical Minerals from Electronic Waste Challenge Statement
+## NYC Hackathon
 
-Uncover the value of critical minerals in electronic waste products
+In 2025, I reflected on my former lab report. <br><br> And, during NYC's Circular Supply Chain and Critical Minerals Hackathon, this concept started to come to fruition.<br><br>
+
+Challenge statement: Uncover the value of critical minerals in electronic waste products
 
 ![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
 
-In 2025, I reflected on my former lab report. <br><br> And, during NYC's Circular Supply Chain and Critical Minerals Hackathon, this concept started to come to fruition.
 
-## Mission: Create a Python application that acts as a materials phase diagram generator and identifies critical materials based on datasets provided.
+## Mission
 
-Tin and Bismuth can be linked to a phase diagram.<br><br>
-Alloy (def.): a composition of two elements, and the atomic structure is different at varying temperatures. <br><br>
-Lithium e-bike batteries and transit waste applications [https://www.sciencedirect.com/science/article/abs/pii/S0956053X1630530X](url)
+Create a Python application that acts as a materials phase diagram generator and identifies critical materials based on datasets provided.
 
 The outcome of a Python / data-drive application could be a visualization of a binary phase diagram of Tin and Bismuth. [https://www.britannica.com/science/tin](url)
 
@@ -70,16 +74,17 @@ Then it will run through a basic prompt that a researcher or manual labor worker
  How to contribute to this for orderly contributions with pull requests <br><br>
  Specific versions of Python libraries <br><br>
 
-Other action items:
+### Other action items:
 
  Understand the code that is generated with AI <br><br>
- Applications to e-waste in freshwater resources <br><br>
  Make a pull request <br><br>
  Linked to relevant issues <br><br>
  Make a system design and workflow to unblock contributions <br><br>
+ Applications to e-waste in freshwater resources <br><br>
+  -> Lithium e-bike batteries and transit waste applications [https://www.sciencedirect.com/science/article/abs/pii/S0956053X1630530X](url)<br><br>
 
 
-GOAL: An MSE analytical tool calculator with phase diagrams incorporated
+### GOAL: An MSE analytical tool calculator with phase diagrams incorporated
 
 To be continued....<br><br>
 
