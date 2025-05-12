@@ -4,8 +4,7 @@ In Spring 2020, my former professor assigned a task to create a binary phase dia
 
 The deliverable that did not come to fruition would
 -> explain single-component phase diagram as a map of equilibrium phases as a function of state variables (temperature, time, pressure)
-
-	-> break it into three stages: cooling to freezing point, the plateau, and additional 
+-> break it into three stages: cooling to freezing point, the plateau, and additional 
 
 MATLAB was never a strong suit, and this project did not align. That idea stagnated.
 
