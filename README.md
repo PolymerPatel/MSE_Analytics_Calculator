@@ -56,7 +56,7 @@ This will assist users in identifying a critical electronic material to recycle 
 The researcher can answer Y/N to the melting temperatures provided. <br><br>
 Then it will run through a basic prompt that a researcher or manual labor worker would use to determine the weight percent of that material.
 
-## 🚀 Ideal Outcomes
+## 🚀 Tasks
 
 - Build a tool that can sustainably source materials in a supply chain <br>
 - Deliver supply chain insights through a tool <br>
