@@ -30,11 +30,11 @@ Alloy (def.): a composition of two elements, and the atomic structure is differe
  - 100% A<br>
  - 75% A - 25%B<br>
  - 50-50%<br>
- - 25% A - 75% B<br>
+ - 25% A - 75% B<br><br>
 
 -- Different electronic components melt at specific temperatures based on their composition. <br>-- And by identifying these "thermal signatures," we can determine what valuable materials are present and in what quantities.
 
-By measuring how a sample melts, we can identify its composition and extract valuable minerals accordingly.
+**By measuring how a sample melts, we can identify its composition and extract valuable minerals.**
 
 
 ## NYC Hackathon
