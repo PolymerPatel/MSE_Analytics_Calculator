@@ -32,7 +32,7 @@ In that experiment, Tin (Sample A) and Bismuth (Sample B) had following concentr
 
  -> Alloying altered how phase changes show up and the diagram’s melting range
 
--- Different electronic components melt at specific temperatures based on their composition. <br><br>-- And by identifying these "thermal signatures," we can determine what valuable materials are present and in what quantities.
+-- Different electronic components melt at specific temperatures based on their composition. <br>-- And by identifying these "thermal signatures," we can determine what valuable materials are present and in what quantities.
 
 By measuring how a sample melts, we can identify its composition and extract valuable minerals accordingly.
 
