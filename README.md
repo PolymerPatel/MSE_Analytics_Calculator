@@ -21,7 +21,7 @@ Phase diagram (def.): plot of solid and liquid phases of matter as a function of
 
  -> It's held at constant pressure <br>
  -> There are various concentrations to determine invariant points
-  -> Tin and Bismuth can be linked to a phase diagram.<br>
+  -> Tin and Bismuth can be linked to a phase diagram.<br><br>
   
 Alloy (def.): a composition of two elements, and the atomic structure is different at varying temperatures. <br>
 
