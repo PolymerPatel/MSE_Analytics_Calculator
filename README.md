@@ -80,7 +80,3 @@ Create a Python application that acts as a materials phase diagram generator and
 
 ### GOAL: An MSE analytical tool calculator with phase diagrams incorporated
 
-To be continued....<br><br>
-
-![dragon](https://github.com/user-attachments/assets/9722ce8e-409f-431f-b857-35b19e609ff4)
-
