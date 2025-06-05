@@ -78,5 +78,5 @@ Create a Python application that acts as a materials phase diagram generator and
   -> Lithium e-bike batteries and transit waste applications [https://www.sciencedirect.com/science/article/abs/pii/S0956053X1630530X](url)<br><br>
 
 
-### GOAL: Develop an MSE analytical tool calculator with phase diagrams by June 2025
+### GOAL: Develop an MSE analytical tool calculator with phase diagrams by July 2025
 
