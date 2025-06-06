@@ -14,6 +14,8 @@ Goals:<br>
 
 In Fall 2020, PolymerPatel conducted an experiment to correlate Tin-Bismuth alloys with their literature-referenced melting temperatures. It demonstrated that one could identify valuable materials in waste streams through thermal properties and cooling curves.
 
+![parents]https://hashchand.wordpress.com/wp-content/uploads/2021/03/1448852576-004f6a52832d16f828557442d14d15f0.jpeg
+
 
 ## 🧪 Material Science Terms
 
