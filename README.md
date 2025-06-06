@@ -58,8 +58,6 @@ Storytelling with images
  - The researcher can answer Y/N to the melting temperatures provided. <br>
  - Runs through a basic prompt that a researcher or manual labor worker would use to determine the weight percent of that material.
 
-![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
-
 ## 🚀 Tasks
 
 - Build a tool that can sustainably source materials in a supply chain <br>
