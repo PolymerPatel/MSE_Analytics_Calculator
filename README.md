@@ -36,6 +36,8 @@ Alloy (def.): a composition of two elements, and the atomic structure is differe
 
 -- Different electronic components melt at specific temperatures based on their composition. <br>-- And by identifying these "thermal signatures," we can determine what valuable materials are present and in what quantities.
 
+![waste](https://github.com/user-attachments/assets/627f1f31-dd2c-45f3-b695-1bb42faac7b3)
+
 **By measuring how a sample melts, we can identify its composition and extract valuable minerals.**
 
 
@@ -44,21 +46,19 @@ Alloy (def.): a composition of two elements, and the atomic structure is differe
 In 2025, I reflected on my former lab report. <br><br> And, during a Circular Supply Chain and Critical Minerals Hackathon, this concept started to come to fruition.<br><br>
 Challenge statement: Uncover the value of critical minerals in electronic waste products
 
-![waste](https://github.com/user-attachments/assets/627f1f31-dd2c-45f3-b695-1bb42faac7b3)
-
 ## 🎯 Mission
 
 Create a Python application that acts as a materials phase diagram generator and identifies critical materials based on datasets provided.
 
 Storytelling with images
 
-![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
-
 - The outcome of a Python / data-drive application could be a visualization of a binary phase diagram of Tin and Bismuth. [https://www.britannica.com/science/tin](url)
 
  - This will assist users in identifying a critical electronic material to recycle through thermal techniques and investigation. <br>
  - The researcher can answer Y/N to the melting temperatures provided. <br>
  - Runs through a basic prompt that a researcher or manual labor worker would use to determine the weight percent of that material.
+
+![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
 
 ## 🚀 Tasks
 
