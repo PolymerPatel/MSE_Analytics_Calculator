@@ -36,6 +36,7 @@ Alloy (def.): a composition of two elements, and the atomic structure is differe
 
 -- Different electronic components melt at specific temperatures based on their composition. <br>-- And by identifying these "thermal signatures," we can determine what valuable materials are present and in what quantities.
 
+![spirit](https://github.com/user-attachments/assets/303d57aa-3c40-461f-b19e-828275c3aa16)
 
 
 **By measuring how a sample melts, we can identify its composition and extract valuable minerals.**
@@ -82,6 +83,8 @@ Storytelling with images
  - Make a system design and workflow to unblock contributions <br>
  - Applications to e-waste in freshwater resources <br>
   -> Lithium e-bike batteries and transit waste applications [https://www.sciencedirect.com/science/article/abs/pii/S0956053X1630530X](url)<br><br>
+
+![stink spirit alive](https://github.com/user-attachments/assets/aefdd833-1f76-472a-9a8f-932ad937e157)
 
 
 ### GOAL: Develop an MSE analytical tool calculator with phase diagrams by July 2025
