@@ -66,8 +66,6 @@ Storytelling with images
 - User interface can be text-based that gives options to enter. It will end up with a tailored recommendation <br>
 - Incorporate pull requests for volunteers and product user feedback mechanisms to improve tool performance <br>
 
-![e-waste](https://github.com/user-attachments/assets/ea563df4-d72e-4dad-a114-bfa5e8ac6e87)
-
 ### ReadMe Action items:
 
  - Python tools <br>
