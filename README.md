@@ -47,6 +47,10 @@ Challenge statement: Uncover the value of critical minerals in electronic waste 
 
 Create a Python application that acts as a materials phase diagram generator and identifies critical materials based on datasets provided.
 
+Storytelling with images
+
+![waste](https://github.com/user-attachments/assets/37c9a6e0-a0f3-48f5-a480-bb10534d8fc9)
+
 - The outcome of a Python / data-drive application could be a visualization of a binary phase diagram of Tin and Bismuth. [https://www.britannica.com/science/tin](url)
 
  - This will assist users in identifying a critical electronic material to recycle through thermal techniques and investigation. <br>
@@ -79,4 +83,10 @@ Create a Python application that acts as a materials phase diagram generator and
 
 
 ### GOAL: Develop an MSE analytical tool calculator with phase diagrams by July 2025
+
+
+To be continued....<br><br>
+
+![dragon](https://github.com/user-attachments/assets/9722ce8e-409f-431f-b857-35b19e609ff4)
+
 
