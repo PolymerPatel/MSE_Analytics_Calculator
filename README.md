@@ -14,7 +14,7 @@ Goals:<br>
 
 In Fall 2020, PolymerPatel conducted an experiment to correlate Tin-Bismuth alloys with their literature-referenced melting temperatures. It demonstrated that one could identify valuable materials in waste streams through thermal properties and cooling curves.
 
-![parents]https://hashchand.wordpress.com/wp-content/uploads/2021/03/1448852576-004f6a52832d16f828557442d14d15f0.jpeg
+![parents](https://github.com/user-attachments/assets/254c3e97-d367-445a-94e7-e3218822114b)
 
 
 ## 🧪 Material Science Terms
@@ -44,6 +44,7 @@ Alloy (def.): a composition of two elements, and the atomic structure is differe
 In 2025, I reflected on my former lab report. <br><br> And, during a Circular Supply Chain and Critical Minerals Hackathon, this concept started to come to fruition.<br><br>
 Challenge statement: Uncover the value of critical minerals in electronic waste products
 
+![waste](https://github.com/user-attachments/assets/627f1f31-dd2c-45f3-b695-1bb42faac7b3)
 
 ## 🎯 Mission
 
@@ -66,6 +67,7 @@ Storytelling with images
 - User interface can be text-based that gives options to enter. It will end up with a tailored recommendation <br>
 - Incorporate pull requests for volunteers and product user feedback mechanisms to improve tool performance <br>
 
+![e-waste](https://github.com/user-attachments/assets/ea563df4-d72e-4dad-a114-bfa5e8ac6e87)
 
 ### ReadMe Action items:
 
