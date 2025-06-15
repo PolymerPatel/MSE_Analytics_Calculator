@@ -14,9 +14,6 @@ Goals:<br>
 
 In Fall 2020, PolymerPatel conducted an experiment to correlate Tin-Bismuth alloys with their literature-referenced melting temperatures. It demonstrated that one could identify valuable materials in waste streams through thermal properties and cooling curves.
 
-![parents](https://github.com/user-attachments/assets/254c3e97-d367-445a-94e7-e3218822114b)
-
-
 ## 🧪 Material Science Terms
 
 Phase diagram (def.): plot of solid and liquid phases of matter as a function of temp. and time. <br>
@@ -35,9 +32,6 @@ Alloy (def.): a composition of two elements, and the atomic structure is differe
  - 25% A - 75% B<br><br>
 
 -- Different electronic components melt at specific temperatures based on their composition. <br>-- And by identifying these "thermal signatures," we can determine what valuable materials are present and in what quantities.
-
-![spirit](https://github.com/user-attachments/assets/303d57aa-3c40-461f-b19e-828275c3aa16)
-
 
 **By measuring how a sample melts, we can identify its composition and extract valuable minerals.**
 
@@ -82,14 +76,7 @@ Storytelling with images
  - Applications to e-waste in freshwater resources <br>
   -> Lithium e-bike batteries and transit waste applications [https://www.sciencedirect.com/science/article/abs/pii/S0956053X1630530X](url)<br><br>
 
-![stink spirit alive](https://github.com/user-attachments/assets/aefdd833-1f76-472a-9a8f-932ad937e157)
-
-
 ### GOAL: Develop an MSE analytical tool calculator with phase diagrams by July 2025
 
 
 To be continued....<br><br>
-
-![dragon](https://github.com/user-attachments/assets/9722ce8e-409f-431f-b857-35b19e609ff4)
-
-
