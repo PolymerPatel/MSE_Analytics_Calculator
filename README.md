@@ -5,14 +5,12 @@ This is a Python application that generates Material phase diagrams to identify 
 
 ## 💡 Background
 
-In Spring 2020, my former professor assigned a task to create a binary phase diagram using MATLAB. 
-<br> Although that project stalled, I never lost that thought.
-
 Goals:<br>
 - Explain a single-component phase diagram as a map of equilibrium phases as a function of state variables (temperature, time, pressure)<br>
 - Break it into three stages: cooling to freezing point, the plateau, and additional melting
 
-In Fall 2020, PolymerPatel conducted an experiment to correlate Tin-Bismuth alloys with their literature-referenced melting temperatures. It demonstrated that one could identify valuable materials in waste streams through thermal properties and cooling curves.
+A laboratory experiment to correlate Tin-Bismuth alloys with their literature-referenced melting temperatures served as inspiration. 
+It demonstrated that one could identify valuable materials in waste streams through thermal properties and cooling curves.
 
 ## 🧪 Material Science Terms
 
@@ -38,7 +36,7 @@ Alloy (def.): a composition of two elements, and the atomic structure is differe
 
 ## Hackathon
 
-In 2025, I reflected on my former lab report. <br><br> And, during a Circular Supply Chain and Critical Minerals Hackathon, this concept started to come to fruition.<br><br>
+Circular Supply Chain and Critical Minerals Hackathon.<br><br>
 Challenge statement: Uncover the value of critical minerals in electronic waste products
 
 ## 🎯 Mission
@@ -72,11 +70,8 @@ Storytelling with images
  - Understand the code that is generated with AI <br>
  - Make a pull request <br>
  - Linked to relevant issues <br>
- - Make a system design and workflow to unblock contributions <br>
+ - Make a system design and workflow to reduce barriers to contribution <br>
  - Applications to e-waste in freshwater resources <br>
-  -> Lithium e-bike batteries and transit waste applications [https://www.sciencedirect.com/science/article/abs/pii/S0956053X1630530X](url)<br><br>
+  -> Lithium e-bike batteries and electric vehicle applications [https://www.sciencedirect.com/science/article/abs/pii/S0956053X1630530X](url)<br><br>
 
 ### GOAL: Develop an MSE analytical tool calculator with phase diagrams by July 2025
-
-
-To be continued....<br><br>
