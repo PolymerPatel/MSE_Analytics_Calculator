@@ -74,4 +74,4 @@ Storytelling with images
  - Applications to e-waste in freshwater resources <br>
   -> Lithium e-bike batteries and electric vehicle applications [https://www.sciencedirect.com/science/article/abs/pii/S0956053X1630530X](url)<br><br>
 
-### GOAL: Develop an MSE analytical tool calculator with phase diagrams by July 2025
+### GOAL: Develop an MSE analytical tool calculator with phase diagrams.
